@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeTodoTheme {
                 // A surface container using the 'background' color from the theme
+                // Test
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
